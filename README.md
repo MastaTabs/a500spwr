@@ -12,3 +12,9 @@ It also adds a power switch to the machine on the backside.
 ![A500 Backside](/pix/IMG_20200426_200718_s.jpg)
 
 ![A500 Inside](/pix/IMG_20200426_200448_s.jpg)
+
+It has been tested by me and was found to be working good.
+
+Do it on your own risk!
+
+For any damage or harm this project might create for the machine or the user I'm not responsible or to be made accountable!

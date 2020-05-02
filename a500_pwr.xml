@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/masta/Desktop/projects/a500_power/a500_pwr/a500_pwr.sch</source>
-    <date>Di 11 Feb 2020 20:44:09 CET</date>
+    <date>Sa 02 Mai 2020 11:50:38 CEST</date>
     <tool>Eeschema 5.1.5</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -20,25 +20,33 @@
   </design>
   <components>
     <comp ref="U1">
-      <value>LMZM23600SILR</value>
+      <value>LMZM23600SILT</value>
       <footprint>a500_pwr:SIL0010A</footprint>
       <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fds%2Fsymlink%2Flmzm23600.pdf</datasheet>
+      <fields>
+        <field name="DK_Detail_Page">/product-detail/de/texas-instruments/LMZM23600SILT/296-49457-1-ND/9371296</field>
+        <field name="Description">DC DC CONVERTER 2.5-15V</field>
+        <field name="Digi-Key_PN">296-49457-1-ND</field>
+        <field name="Herstellernr.">LMZM23600SILT</field>
+        <field name="Manufacturer">Texas Instruments</field>
+      </fields>
       <libsource lib="a500_pwr" part="LMZM23601SILR" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E0DF919</tstamp>
     </comp>
     <comp ref="C2">
-      <value>100n</value>
+      <value>100n 50V</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
-      <datasheet>C2012X7R2A104K125AA</datasheet>
+      <fields>
+        <field name="Herstellernr.">C2012X7R2A104K125AA</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E0E00AA</tstamp>
     </comp>
     <comp ref="C1">
-      <value>10u</value>
+      <value>10u 25V</value>
       <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
-      <datasheet>C3216X5R1H106K160AB</datasheet>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E0E049F</tstamp>
@@ -46,7 +54,9 @@
     <comp ref="C3">
       <value>10u</value>
       <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
-      <datasheet>CGA5L1X7R1V106K160AC</datasheet>
+      <fields>
+        <field name="Herstellernr.">CGA5L1X7R1V106K160AC</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E0E0955</tstamp>
@@ -54,15 +64,20 @@
     <comp ref="C4">
       <value>10u</value>
       <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
-      <datasheet>CGA5L1X7R1V106K160AC</datasheet>
+      <fields>
+        <field name="Herstellernr.">CGA5L1X7R1V106K160AC</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E0E16A6</tstamp>
     </comp>
     <comp ref="R1">
-      <value>280k</value>
+      <value>280k 1%</value>
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
-      <datasheet>CRCW0402280KFKED</datasheet>
+      <datasheet>https://www.mouser.de/datasheet/2/427/dcrcwe3-45987.pdf</datasheet>
+      <fields>
+        <field name="Herstellernr.">CRCW0603280KFKEA</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E0E2162</tstamp>
@@ -70,7 +85,10 @@
     <comp ref="R2">
       <value>25.5k</value>
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
-      <datasheet>CRCW040225K5FKED</datasheet>
+      <datasheet>https://www.mouser.de/datasheet/2/427/dcrcwe3-45987.pdf</datasheet>
+      <fields>
+        <field name="Herstellernr.">CRCW060325K5FKEA</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E0E26D6</tstamp>
@@ -78,7 +96,12 @@
     <comp ref="D1">
       <value>700mV</value>
       <footprint>Diodes_SMD:D_SMA_Handsoldering</footprint>
-      <datasheet>B360A-13-F</datasheet>
+      <fields>
+        <field name="DK_Detail_Page">/product-detail/de/diodes-incorporated/B360A-13-F/B360A-FDICT-ND/724980</field>
+        <field name="Description">DIODE SCHOTTKY 60V 3A SMA</field>
+        <field name="Herstellernr.">B360A-13-F</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+      </fields>
       <libsource lib="Device" part="D_Schottky_Small" description="Schottky diode, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E0EC2F4</tstamp>
@@ -105,7 +128,6 @@
     <comp ref="J2">
       <value>APWR_big</value>
       <footprint>a500_pwr:APWR_big</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="connect" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E0F4CB7</tstamp>
@@ -113,9 +135,9 @@
     <comp ref="J3">
       <value>APWR_small</value>
       <footprint>a500_pwr:APWR_small</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="Category">Connectors, Headers</field>
+        <field name="Description">3 pin header 2.54mm</field>
       </fields>
       <libsource lib="connect" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
@@ -125,6 +147,11 @@
       <value>RPM5.0-6.0</value>
       <footprint>a500_pwr:RPM5.0-6.0</footprint>
       <datasheet>https://www.mouser.de/datasheet/2/468/RPM-6.0-1398219.pdf</datasheet>
+      <fields>
+        <field name="DK_Detail_Page">/product-detail/de/recom-power/RPM5-0-6-0/945-3256-1-ND/9644705</field>
+        <field name="Description">6A DC/DC-CONVERTER 'INNOLINE' SM</field>
+        <field name="Digi-Key_PN">945-3256-1-ND</field>
+      </fields>
       <libsource lib="a500_pwr" part="RPM5.0-6.0" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E10C8ED</tstamp>
@@ -134,6 +161,10 @@
       <footprint>Capacitors_SMD:C_1812_HandSoldering</footprint>
       <datasheet>https://www.mouser.de/datasheet/2/445/742792510-1720733.pdf</datasheet>
       <fields>
+        <field name="DK_Detail_Page">product-detail/de/würth-elektronik/742792510/732-1640-1-ND/1639584</field>
+        <field name="Description">FERRITE BEAD 70 OHM 1812 1LN</field>
+        <field name="Digi-Key_PN">732-1640-1-ND</field>
+        <field name="Herstellernr.">742792510</field>
         <field name="Manufacturer">Würth</field>
       </fields>
       <libsource lib="Device" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
@@ -145,6 +176,10 @@
       <footprint>a500_pwr:fb_5v</footprint>
       <datasheet>https://www.mouser.de/datasheet/2/445/7427932-1720978.pdf</datasheet>
       <fields>
+        <field name="DK_Detail_Page">/product-detail/de/würth-elektronik/7427932/732-2394-1-ND/2268596</field>
+        <field name="Description">FERRITE BEAD 98 OHM 2SMD 1LN</field>
+        <field name="Digi-Key_PN">732-2394-1-ND</field>
+        <field name="Herstellernr.">7427932</field>
         <field name="Manufacturer">Würth</field>
       </fields>
       <libsource lib="Device" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
@@ -152,9 +187,8 @@
       <tstamp>5E126F9E</tstamp>
     </comp>
     <comp ref="C5">
-      <value>10u</value>
+      <value>10u 25V</value>
       <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
-      <datasheet>C3216X5R1H106K160AB</datasheet>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E1277EB</tstamp>
@@ -162,7 +196,9 @@
     <comp ref="C6">
       <value>22u</value>
       <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
-      <datasheet>C3216X5R1H106K160AB</datasheet>
+      <fields>
+        <field name="Herstellernr.">C3216X5R1H106K160AB</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E12A386</tstamp>
@@ -170,6 +206,9 @@
     <comp ref="R3">
       <value>Rdown</value>
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Description">optional 5V adjust</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E133C8C</tstamp>
@@ -177,6 +216,9 @@
     <comp ref="R4">
       <value>Rup</value>
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Description">optional 5V adjust</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E13473C</tstamp>
@@ -184,7 +226,6 @@
     <comp ref="C7">
       <value>330u</value>
       <footprint>Capacitors_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E364C29</tstamp>
@@ -193,6 +234,12 @@
       <value>RMS1R102M7QES</value>
       <footprint>a500_pwr:rock_sw</footprint>
       <datasheet>https://www.mouser.de/datasheet/2/418/NG_CD_2267087_A_2267087_c.dwg-680380.pdf</datasheet>
+      <fields>
+        <field name="DK_Detail_Page">/products/de?keywords=RMS1R102M7QES</field>
+        <field name="Description">SWITCH ROCKER SPDT 3A 120V</field>
+        <field name="Digi-Key_PN">450-2074-ND</field>
+        <field name="Herstellernr.">RMS1R102M7QES</field>
+      </fields>
       <libsource lib="a500_pwr" part="PWR_SW" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E43C212</tstamp>
@@ -478,8 +525,8 @@
       <node ref="U2" pin="D5"/>
       <node ref="C7" pin="2"/>
     </net>
-    <net code="9" name="Net-(SW1-Pad1)">
-      <node ref="SW1" pin="1"/>
+    <net code="9" name="Net-(SW1-Pad3)">
+      <node ref="SW1" pin="3"/>
     </net>
     <net code="10" name="+12V">
       <node ref="U1" pin="4"/>
@@ -490,7 +537,7 @@
       <node ref="L1" pin="2"/>
       <node ref="C7" pin="1"/>
       <node ref="C5" pin="1"/>
-      <node ref="SW1" pin="3"/>
+      <node ref="SW1" pin="2"/>
     </net>
     <net code="11" name="+5V">
       <node ref="C6" pin="1"/>
@@ -518,18 +565,18 @@
       <node ref="R2" pin="1"/>
     </net>
     <net code="18" name="-12V">
+      <node ref="D1" pin="2"/>
       <node ref="U1" pin="1"/>
       <node ref="J2" pin="2"/>
-      <node ref="D1" pin="2"/>
-      <node ref="C3" pin="2"/>
       <node ref="U1" pin="11"/>
+      <node ref="C3" pin="2"/>
       <node ref="R2" pin="2"/>
       <node ref="C4" pin="2"/>
       <node ref="C2" pin="2"/>
     </net>
     <net code="19" name="/SW12V">
+      <node ref="SW1" pin="1"/>
       <node ref="J1" pin="1"/>
-      <node ref="SW1" pin="2"/>
     </net>
   </nets>
 </export>

@@ -15,7 +15,7 @@ It also adds a power switch to the machine on the backside.
 
 It has been tested by me and was found to be working good.
 
-License
+### License
 The Amiga500 single power documentation, including the design itself, is copyright © MastaTabs (Tobias Seiler) 2020.
 
 Amiga500 single power is Open Hardware licensed under the CERN OHL v. 1.2.

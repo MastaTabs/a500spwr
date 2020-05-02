@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/masta/Desktop/projects/a500_power/a500_pwr/a500_pwr.sch</source>
+    <date>Di 11 Feb 2020 20:44:09 CET</date>
+    <tool>Eeschema 5.1.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>a500_pwr.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>LMZM23600SILR</value>
+      <footprint>a500_pwr:SIL0010A</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fds%2Fsymlink%2Flmzm23600.pdf</datasheet>
+      <libsource lib="a500_pwr" part="LMZM23601SILR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0DF919</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>C2012X7R2A104K125AA</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0E00AA</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>C3216X5R1H106K160AB</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0E049F</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>CGA5L1X7R1V106K160AC</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0E0955</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>CGA5L1X7R1V106K160AC</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0E16A6</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>280k</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>CRCW0402280KFKED</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0E2162</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>25.5k</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>CRCW040225K5FKED</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0E26D6</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>700mV</value>
+      <footprint>Diodes_SMD:D_SMA_Handsoldering</footprint>
+      <datasheet>B360A-13-F</datasheet>
+      <libsource lib="Device" part="D_Schottky_Small" description="Schottky diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0EC2F4</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>PJ-102A</value>
+      <footprint>a500_pwr:Barrel_Jack_5.5mmODx2.1mmID_PJ-102A</footprint>
+      <datasheet>https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/cui-inc/PJ-102A/CP-102A-ND/275425</field>
+        <field name="Description">CONN PWR JACK 2X5.5MM SOLDER</field>
+        <field name="Digi-Key_PN">CP-102A-ND</field>
+        <field name="Family">Barrel - Power Connectors</field>
+        <field name="MPN">PJ-102A</field>
+        <field name="Manufacturer">CUI Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="barreljack" part="PJ-102A" description="CONN PWR JACK 2X5.5MM SOLDER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0F1A03</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>APWR_big</value>
+      <footprint>a500_pwr:APWR_big</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="connect" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0F4CB7</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>APWR_small</value>
+      <footprint>a500_pwr:APWR_small</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">Connectors, Headers</field>
+      </fields>
+      <libsource lib="connect" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0FADCB</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>RPM5.0-6.0</value>
+      <footprint>a500_pwr:RPM5.0-6.0</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/468/RPM-6.0-1398219.pdf</datasheet>
+      <libsource lib="a500_pwr" part="RPM5.0-6.0" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E10C8ED</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>742792510</value>
+      <footprint>Capacitors_SMD:C_1812_HandSoldering</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/445/742792510-1720733.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Würth</field>
+      </fields>
+      <libsource lib="Device" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E11ED99</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>7427932</value>
+      <footprint>a500_pwr:fb_5v</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/445/7427932-1720978.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Würth</field>
+      </fields>
+      <libsource lib="Device" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E126F9E</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>C3216X5R1H106K160AB</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E1277EB</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>22u</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>C3216X5R1H106K160AB</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E12A386</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>Rdown</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E133C8C</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>Rup</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E13473C</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>330u</value>
+      <footprint>Capacitors_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E364C29</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>RMS1R102M7QES</value>
+      <footprint>a500_pwr:rock_sw</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/418/NG_CD_2267087_A_2267087_c.dwg-680380.pdf</datasheet>
+      <libsource lib="a500_pwr" part="PWR_SW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E43C212</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky_Small">
+      <description>Schottky diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Ferrite_Bead_Small">
+      <description>Ferrite bead, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">Ferrite_Bead_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="a500_pwr" part="LMZM23601SILR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LMZM23601SILR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="MODE_SYNC" type="input"/>
+        <pin num="3" name="Vin" type="power_in"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="6" name="Vout" type="power_out"/>
+        <pin num="7" name="FB" type="input"/>
+        <pin num="8" name="DNC" type="NotConnected"/>
+        <pin num="9" name="DNC" type="NotConnected"/>
+        <pin num="10" name="DNC" type="NotConnected"/>
+        <pin num="11" name="PAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="a500_pwr" part="PWR_SW">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">PWR_SW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="a500_pwr" part="RPM5.0-6.0">
+      <docs>https://www.mouser.de/datasheet/2/468/RPM-6.0-1398219.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RPM5.0-6.0</field>
+        <field name="Footprint">a500_pwr:RPM5.0-6.0</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="Vin" type="power_in"/>
+        <pin num="A2" name="Vin" type="power_in"/>
+        <pin num="A3" name="GND" type="power_in"/>
+        <pin num="A4" name="GND" type="power_in"/>
+        <pin num="A5" name="Vout" type="power_out"/>
+        <pin num="B1" name="GND" type="power_in"/>
+        <pin num="B2" name="GND" type="power_in"/>
+        <pin num="B3" name="GND" type="power_in"/>
+        <pin num="B4" name="GND" type="power_in"/>
+        <pin num="B5" name="Vout" type="power_out"/>
+        <pin num="C1" name="CTRL" type="input"/>
+        <pin num="C2" name="GND" type="power_in"/>
+        <pin num="C3" name="GND" type="power_in"/>
+        <pin num="C4" name="GND" type="power_in"/>
+        <pin num="C5" name="Sense" type="power_in"/>
+        <pin num="D1" name="PGood" type="output"/>
+        <pin num="D2" name="GND" type="power_in"/>
+        <pin num="D3" name="GND" type="power_in"/>
+        <pin num="D4" name="GND" type="power_in"/>
+        <pin num="D5" name="GND" type="power_in"/>
+        <pin num="E1" name="SEQ" type="input"/>
+        <pin num="E2" name="Nc" type="NotConnected"/>
+        <pin num="E3" name="GND" type="power_in"/>
+        <pin num="E4" name="GND" type="power_in"/>
+        <pin num="E5" name="Trim" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="barreljack" part="PJ-102A">
+      <description>CONN PWR JACK 2X5.5MM SOLDER</description>
+      <docs>https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PJ-102A</field>
+        <field name="Footprint">digikey-footprints:Barrel_Jack_5.5mmODx2.1mmID_PJ-102A</field>
+        <field name="Datasheet">https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf</field>
+        <field name="Digi-Key_PN">CP-102A-ND</field>
+        <field name="MPN">PJ-102A</field>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="Family">Barrel - Power Connectors</field>
+        <field name="DK_Datasheet_Link">https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/cui-inc/PJ-102A/CP-102A-ND/275425</field>
+        <field name="Description">CONN PWR JACK 2X5.5MM SOLDER</field>
+        <field name="Manufacturer">CUI Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="connect" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="connect" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="a500_pwr">
+      <uri>/home/masta/Desktop/projects/a500_power/a500_pwr/a500_pwr.lib</uri>
+    </library>
+    <library logical="barreljack">
+      <uri>/home/masta/Desktop/projects/a500_power/a500_pwr/dk_Barrel-Power-Connectors.lib</uri>
+    </library>
+    <library logical="connect">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(L1-Pad1)">
+      <node ref="L1" pin="1"/>
+      <node ref="U2" pin="A1"/>
+      <node ref="U2" pin="A2"/>
+    </net>
+    <net code="2" name="Net-(U2-PadC1)">
+      <node ref="U2" pin="C1"/>
+    </net>
+    <net code="3" name="Net-(L2-Pad2)">
+      <node ref="U2" pin="A5"/>
+      <node ref="U2" pin="B5"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U2" pin="C5"/>
+      <node ref="L2" pin="2"/>
+    </net>
+    <net code="4" name="Net-(U2-PadD1)">
+      <node ref="U2" pin="D1"/>
+    </net>
+    <net code="5" name="Net-(U2-PadE1)">
+      <node ref="U2" pin="E1"/>
+    </net>
+    <net code="6" name="Net-(U2-PadE2)">
+      <node ref="U2" pin="E2"/>
+    </net>
+    <net code="7" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="U2" pin="E5"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="J2" pin="4"/>
+      <node ref="C3" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J3" pin="3"/>
+      <node ref="U2" pin="C2"/>
+      <node ref="U2" pin="A3"/>
+      <node ref="U2" pin="A4"/>
+      <node ref="U2" pin="B1"/>
+      <node ref="U2" pin="B2"/>
+      <node ref="U2" pin="B3"/>
+      <node ref="U2" pin="B4"/>
+      <node ref="U2" pin="C3"/>
+      <node ref="U2" pin="C4"/>
+      <node ref="U2" pin="D2"/>
+      <node ref="U2" pin="D3"/>
+      <node ref="U2" pin="D4"/>
+      <node ref="U2" pin="E4"/>
+      <node ref="U2" pin="E3"/>
+      <node ref="U2" pin="D5"/>
+      <node ref="C7" pin="2"/>
+    </net>
+    <net code="9" name="Net-(SW1-Pad1)">
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="10" name="+12V">
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="SW1" pin="3"/>
+    </net>
+    <net code="11" name="+5V">
+      <node ref="C6" pin="1"/>
+      <node ref="L2" pin="1"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="12" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="13" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="14" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="15" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="16" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="17" name="Net-(R1-Pad2)">
+      <node ref="U1" pin="7"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="18" name="-12V">
+      <node ref="U1" pin="1"/>
+      <node ref="J2" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U1" pin="11"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="19" name="/SW12V">
+      <node ref="J1" pin="1"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+  </nets>
+</export>

@@ -10,3 +10,5 @@ It also adds a power switch to the machine on the backside.
 ![Board Image](/pix/IMG_20200426_200116_s.jpg)
 
 ![A500 Backside](/pix/IMG_20200426_200718_s.jpg)
+
+![A500 Inside](/pix/IMG_20200426_200448_s.jpg)

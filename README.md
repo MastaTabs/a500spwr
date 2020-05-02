@@ -7,3 +7,4 @@ It can deliver upto 6A @ 5V and 500mA @ -12V. The 12V line is passed through.
 
 ![Board Image](/pix/IMG_20200426_200116_s.jpg)
 
+![A500 Backside](/pix/IMG_20200426_200718_s.jpg)

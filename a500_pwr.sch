@@ -712,4 +712,6 @@ Connection ~ 7000 5150
 Wire Wire Line
 	7000 5150 7000 5750
 NoConn ~ 5000 2200
+Text Notes 3450 5350 0    50   ~ 0
+R3/R4 are optional\nto adjust the output voltage
 $EndSCHEMATC

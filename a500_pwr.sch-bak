@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Amiga 500 single 12V supply"
 Date ""
 Rev ""
 Comp ""
@@ -539,7 +539,7 @@ F 0 "C6" H 3842 4546 50  0000 L CNN
 F 1 "22u" H 3842 4455 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 3750 4500 50  0001 C CNN
 F 3 "" H 3750 4500 50  0001 C CNN
-F 4 "C3216X5R1H106K160AB" H 3750 4500 50  0001 C CNN "Herstellernr."
+F 4 "C3216X5R1V226M160AC" H 3750 4500 50  0001 C CNN "Herstellernr."
 	1    3750 4500
 	1    0    0    -1  
 $EndComp
